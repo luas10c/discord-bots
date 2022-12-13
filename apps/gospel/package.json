@@ -1,0 +1,22 @@
+{
+  "name": "gospel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "dotenv -v NODE_ENV=development -e .env.development -- tsx watch --clear-screen=false src/main.ts",
+    "build": "tsc --outDir dist",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.14.0",
+    "adapters": "*",
+    "discord.js": "^14.7.1",
+    "dotenv-cli": "^6.0.0",
+    "libsodium-wrappers": "^0.7.10"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.13",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.4"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "discord-bots",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  },
+  "engines": {
+    "node": "^18.10"
+  },
+  "license": "UNLICENSED"
+}

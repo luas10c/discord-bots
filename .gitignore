@@ -1,0 +1,11 @@
+# env files
+.env*
+!.env.example
+
+# misc
+node_modules
+apps/**/node_modules
+apps/**/.turbo
+apps/**/dist
+.turbo
+.vscode
